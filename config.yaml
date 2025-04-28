@@ -22,18 +22,14 @@ md_wechat_path: './docs/wechat.md'
 
 # keywords to search
 keywords:
-    "SLAM": 
-        filters: ["SLAM", "Visual Odometry"]
-    "SFM":
-        filters: ["SFM", "Structure from Motion"]
-    "Visual Localization":
-        filters: ["Visual Localization","Camera Localization",
-                  "Camera Re-localisation","Loop Closure Detection",
-                  "visual place recognition","image retrieval"]
-    "Keypoint Detection":
-        filters: ["Keypoint Detection", "Feature Descriptor"]
-    "Image Matching":
-        filters: ["Image Matching", "Keypoint Matching", 
-                  "Line Segment Detection", "Local Feature Matching"]
-    "NeRF":
-        filters: ["NeRF"]
+    "Planning": 
+        filters: ["Path Planning", "Motion Planning", "Trajectory Planning",
+                  "Path Following", "Motion Control", "Motion Generation",
+                  "Path Optimization", "Trajectory Optimization"]
+    "Robot Learning":
+        filters: ["Robot Learning", "Learning from Demonstration", "Imitation Learning", 
+                  "Skill Learning", "Reinforcement Learning","Task Learning"]
+    "Enbodied Robotics":
+        filters: ["Enbodied Robotics","vision-language-action(vla)"]
+    "PINN":
+        filters: ["PINN", "physics-informed neural networks"]
