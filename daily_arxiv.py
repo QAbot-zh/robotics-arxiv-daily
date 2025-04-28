@@ -134,15 +134,16 @@ def get_daily_papers(topic,query="slam", max_results=2):
             #    repo_url = get_code_link(paper_title)
             #    if repo_url is None:
             #        repo_url = get_code_link(paper_key)
+            format_abstract = f"<details><summary>Abstract</summary><p>{paper_abstract}</p></details>" if paper_abstract else "null"
             if repo_url is not None:
-                content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|**[link]({})**|\n".format(
-                       update_time,paper_title,paper_first_author,paper_key,paper_url,repo_url)
+                content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|**[link]({})**|{}|\n".format(
+                       update_time,paper_title,paper_first_author,paper_key,paper_url,repo_url,format_abstract)
                 content_to_web[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({}), Code: **[{}]({})**".format(
                        update_time,paper_title,paper_first_author,paper_url,paper_url,repo_url,repo_url)
 
             else:
-                content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|null|\n".format(
-                       update_time,paper_title,paper_first_author,paper_key,paper_url)
+                content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|null|{}|\n".format(
+                       update_time,paper_title,paper_first_author,paper_key,paper_url,format_abstract)
                 content_to_web[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({})".format(
                        update_time,paper_title,paper_first_author,paper_url,paper_url)
 
@@ -326,10 +327,10 @@ def json_to_md(filename,md_filename,
 
             if use_title == True :
                 if to_web == False:
-                    f.write("|Publish Date|Title|Authors|PDF|Code|\n" + "|---|---|---|---|---|\n")
+                    f.write("|Publish Date|Title|Authors|PDF|Code| Abstract |\n" + "|---|---|---|---|---|---|\n")
                 else:
-                    f.write("| Publish Date | Title | Authors | PDF | Code |\n")
-                    f.write("|:---------|:-----------------------|:---------|:------|:------|\n")
+                    f.write("| Publish Date | Title | Authors | PDF | Code | Abstract |\n")
+                    f.write("|:---------|:-----------------------|:---------|:------|:------|:------|\n")
 
             # sort papers by date
             day_content = sort_papers(day_content)
