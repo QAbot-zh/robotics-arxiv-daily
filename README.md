@@ -1,4 +1,4 @@
-## Updated on 2025.10.11
+## Updated on 2025.10.13
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details>
@@ -196,7 +196,7 @@
 |**2025-04-24**|**AGCo-MATA: Air-Ground Collaborative Multi-Agent Task Allocation in Mobile Crowdsensing**|Tianhao Shao et.al.|[2504.17409](http://arxiv.org/abs/2504.17409)|null|
 |**2025-04-25**|**Highly Accurate and Diverse Traffic Data: The DeepScenario Open 3D Dataset**|Oussema Dhaouadi et.al.|[2504.17371](http://arxiv.org/abs/2504.17371)|null|
 
-<p align=right>(<a href=#updated-on-20251011>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251013>back to top</a>)</p>
 
 ## Robot Learning
 
@@ -383,7 +383,7 @@
 |**2025-04-25**|**Depth-Constrained ASV Navigation with Deep RL and Limited Sensing**|Amirhossein Zhalehmehrabi et.al.|[2504.18253](http://arxiv.org/abs/2504.18253)|null|
 |**2025-04-25**|**Aligning Language Models for Icelandic Legal Text Summarization**|Þórir Hrafn Harðarson et.al.|[2504.18180](http://arxiv.org/abs/2504.18180)|null|
 
-<p align=right>(<a href=#updated-on-20251011>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251013>back to top</a>)</p>
 
 ## Enbodied Robotics
 
@@ -520,7 +520,7 @@
 |**2025-03-27**|**CoT-VLA: Visual Chain-of-Thought Reasoning for Vision-Language-Action Models**|Qingqing Zhao et.al.|[2503.22020](http://arxiv.org/abs/2503.22020)|null|
 |**2025-04-14**|**MoLe-VLA: Dynamic Layer-skipping Vision Language Action Model via Mixture-of-Layers for Efficient Robot Manipulation**|Rongyu Zhang et.al.|[2503.20384](http://arxiv.org/abs/2503.20384)|null|
 
-<p align=right>(<a href=#updated-on-20251011>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251013>back to top</a>)</p>
 
 ## PINN
 
@@ -666,7 +666,7 @@
 |**2025-04-19**|**RINN: One Sample Radio Frequency Imaging based on Physics Informed Neural Network**|Fei Shang et.al.|[2504.15311](http://arxiv.org/abs/2504.15311)|null|
 |**2025-04-18**|**Meta-Learning and Knowledge Discovery based Physics-Informed Neural Network for Remaining Useful Life Prediction**|Yu Wang et.al.|[2504.13797](http://arxiv.org/abs/2504.13797)|**[link](https://github.com/Sephiroth66616/MKDPINN)**|
 
-<p align=right>(<a href=#updated-on-20251011>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20251013>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/Vincentqyw/cv-arxiv-daily/graphs/contributors
